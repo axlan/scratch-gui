@@ -46,8 +46,8 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import newBlockImage from './newblocks.png';
-import newBlockButtonImage from './newblocks-small.png';
+import wledImage from './wled.png';
+import wledButtonImage from './wled-small.png';
 
 export default [
     {
@@ -200,16 +200,16 @@ export default [
         helpLink: 'https://scratch.mit.edu/microbit'
     },
     {
-        name: 'NewBlocks',
-        extensionId: 'newblocks',
-        collaborator: 'Me',
-        iconURL: newBlockImage,
-        insetIconURL: newBlockButtonImage,
+        name: 'WLED',
+        extensionId: 'wled',
+        collaborator: 'Axlan',
+        iconURL: wledImage,
+        insetIconURL: wledButtonImage,
         description: (
             <FormattedMessage
-                defaultMessage="New blocks."
-                description="my block"
-                id="gui.extension.newblocks.description"
+                defaultMessage="WLED led controller"
+                description="WLED led controller"
+                id="gui.extension.wled.description"
             />
         ),
         featured: true,
@@ -217,7 +217,6 @@ export default [
         internetConnectionRequired: true,
         bluetoothRequired: false,
         helpLink: 'https://scratch.mit.edu/wedo'
-
     },
     {
         name: 'LEGO MINDSTORMS EV3',
